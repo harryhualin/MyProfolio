@@ -1,0 +1,8 @@
+
+.example-spacer {
+        flex: 1 1 auto;
+}
+mat-toolbar{
+    background-color: rgba(82, 78, 78, 0.991);
+    color:aliceblue
+}
