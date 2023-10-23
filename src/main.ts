@@ -2,6 +2,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 
+import type { Engine } from "tsparticles-engine";
+import { loadFull } from "tsparticles";
+
 //import ScrollReveal from 'scrollreveal';
 
 
@@ -106,16 +109,5 @@ var app = document.getElementById("autoWrite");
 // /*SCROLL CONTACT*/
 // sr.reveal(".contact_input", { interval: 200 });
 
-/*Toggle dark mode*/
-const toggleDarkMode = document.getElementById("toggle");
-
-toggleDarkMode?.addEventListener("change", () => {
-  document.body.classList.toggle("dark");
-  document.getElementById("head")?.classList.toggle("dark");
-});
 document.body.classList.toggle("dark");
 document.getElementById("head")?.classList.toggle("dark");
-
-/*Particles.js*/
-
-

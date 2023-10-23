@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
 
+
+
+
+onChange(){ 
+  document.body.classList.toggle("dark");
+  document.getElementById("head")?.classList.toggle("dark");
+} 
+
+
 }
+/*Toggle dark mode*/

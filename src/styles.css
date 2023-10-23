@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 :root {
   scrollbar-color: rgb(207, 27, 27) rgb(20, 25, 27) !important;
   scrollbar-width: thin !important;
@@ -13,7 +14,7 @@
 
 /*Colors*/
 :root {
-  --first-color: #cf1b1b;
+  --first-color: #f68d05;
   --second-color: #14191b;
 }
 
@@ -174,7 +175,7 @@ img {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  font-size: 1.5rem;
+  font-size: 5vw;
 }
 
 .logo.appear {
@@ -353,11 +354,13 @@ header {
 }
 
 .home_title {
+  
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
 
 .home_title-color {
+  font-family: Poppins;
   color: var(--first-color);
 }
 
@@ -519,7 +522,7 @@ header {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+ justify-self: center;
 }
 
 .captcha {
