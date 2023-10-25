@@ -384,7 +384,7 @@ header {
   position: absolute;
   right: 0;
   bottom: 12%;
-  width: 255px;
+  width: 100px;
 }
 
 /*Buttons*/
@@ -405,6 +405,8 @@ header {
 .about_container {
   row-gap: 2rem;
   text-align: center;
+  width: 60vw;
+  margin-left: 20%;
 }
 
 .about_subtitle {
@@ -615,6 +617,7 @@ header {
 
   .home {
     height: 100vh;
+    
   }
   .home_data {
     align-self: flex-end;
@@ -630,7 +633,7 @@ header {
     margin-right: var(--mb-4);
   }
   .home_img {
-    width: 475px;
+    width: 300px;
     bottom: 12%;
   }
 
